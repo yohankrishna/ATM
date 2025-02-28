@@ -155,8 +155,8 @@ public class Forgot extends javax.swing.JFrame {
         Random rand = new Random();
         randomcode=rand.nextInt(999999);
         String host = "smtp.gmail.com";
-        String user = "srinathu73@gmail.com";
-        String pass = "smwxanlikjbbtgxw";
+        String user = "abc@gmail.com"; // Use your email
+        String pass = "xxxxxxxxxxx"; // Use  your pass
         String to = txtEMAIL.getText();
         String subject = "Reseting code";
         String message = "your reset code is "+randomcode;
